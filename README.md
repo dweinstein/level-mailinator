@@ -82,3 +82,19 @@ undefined
 (^C again to quit)
 ->
 ```
+
+Look at the database:
+```
+$ cd mail.db
+$ lev
+/>ls
+
+!MessageRecord!1419530507-35948612-georgebush
+!MessageRecord!1419564838-37346551-georgebush
+!MessageRecord!1419568848-37536714-georgebush
+!MessageRecord!1419579885-38043401-georgebush
+!MessageRecord!1419608752-39542509-georgebush
+!MessageRecord!1419613263-39804896-georgebush
+...
+```
+
