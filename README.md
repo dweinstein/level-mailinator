@@ -7,11 +7,36 @@ $ vim defaults.json # set token value
 $ ./scripts/mail-repl
 -> watch()
 'OK'
+-> find({from: 'David'})
+-> { id: '1419905935-64206899-georgebush',
+  to: 'georgebush@mailinator.com',
+  time: 1419905935623,
+  subject: 'yo dawg',
+  fromfull: 'daemonize@gmail.com',
+  been_read: false,
+  from: 'David',
+  ip: '209.85.218.44' }
+-> find({from: 'Elena'}, {limit: 2})
+ { id: '1419854745-57827481-georgebush',
+  to: 'georgebush@bobmail.info',
+  time: 1419854745605,
+  subject: 'Hi my friend!',
+  fromfull: 'georgebushznr@fibertel.com.ar',
+  been_read: false,
+  from: 'Elena',
+  ip: '190.246.233.81' }
+{ id: '1419856188-58924064-georgebush',
+  to: 'georgebush@bobmail.info',
+  time: 1419856188755,
+  subject: 'Hi my friend!',
+  fromfull: 'georgebushuzc@seattlefeldenkrais.com',
+  been_read: false,
+  from: 'Elena',
+  ip: '189.149.126.11' }
 -> ls
 [Function]
 -> ls()
 undefined
-->
 {"id":"1419530507-35948612-georgebush","to":"georgebush@mailinator.com","time":1419530507513,"subject":"Say Hello to these matches!","fromfull":"donotreply@cougarlife.com","been_read":false,"from":"Cougar Life","ip":"66.240.151.87"}
 {"id":"1419564838-37346551-georgebush","to":"georgebush@mailinator.com","time":1419564838050,"subject":"guarantee you will get laid tonight ","fromfull":"AdDe@36onthequay.co.uk","been_read":false,"from":"Landon","ip":"118.97.175.114"}
 ...
