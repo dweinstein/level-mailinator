@@ -1,0 +1,8 @@
+{
+  "dev": {
+    "to": "georgebush",
+    "token": "token-here",
+    "interval": 30e3,
+    "db": "./mail.db"
+  }
+}
