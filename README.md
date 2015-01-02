@@ -1,3 +1,5 @@
+# Mailinator Example
+
 Get a token from [mailinator](https://www.mailinator.com/apidocs.jsp)
 
 ```
