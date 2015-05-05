@@ -1,6 +1,6 @@
 {
   "name": "level-mailinator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "emit mailinator events",
   "main": "index.js",
   "scripts": {
