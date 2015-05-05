@@ -15,7 +15,7 @@
     "jsonparse": "0.0.6",
     "level": "^0.18.0",
     "lodash": "^2.4.1",
-    "mailinator": "^1.0.1",
+    "mailinator": "^1.0.2",
     "modella": "^0.2.14",
     "modella-leveldb": "git+https://github.com/dweinstein/modella-leveldb.git#subindex",
     "modella-validators": "^0.1.2",
